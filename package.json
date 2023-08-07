@@ -1,11 +1,21 @@
 {
-  "dependencies": {
-    "axios": "^1.4.0"
-  },
-  "types": "lib/index.d.ts",
+  "name": "openai-debugger",
+  "version": "1.0.0",
+  "description": "Use OpenAI's API to help solve error messages",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc"
+  },
+  "keywords": ["openai", "chatgpt", "llm", "debugger", "devtool"],
+  "author": "Erik Newland",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/repository.git"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
   },
   "devDependencies": {
     "@types/node": "^20.4.8",
