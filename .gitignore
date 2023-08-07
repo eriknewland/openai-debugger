@@ -1,0 +1,13 @@
+# Ignore node modules
+node_modules
+
+# Ignore TypeScript build output
+lib
+
+# Ignore test files
+index.html
+index.js
+index2.js
+index3.js
+index4.mjs
+instructions.md

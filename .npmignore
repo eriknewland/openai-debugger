@@ -1,0 +1,13 @@
+# Ignore source files
+src
+
+# Ignore test files
+index.html
+index.js
+index2.js
+index3.js
+index4.mjs
+instructions.md
+
+# Ignore TypeScript config
+tsconfig.json
