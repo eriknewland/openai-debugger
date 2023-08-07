@@ -1,6 +1,14 @@
 # openai-debugger
 
-Debug your client and server errors with OpenAI's API. Written in typescript
+Debug your client and server errors with OpenAI's API. Written in typescript, designed to be used as a dev dependency only.
+
+![TypeScript](https://img.shields.io/static/v1?style=for-the-badge&message=TypeScript&color=3178C6&logo=TypeScript&logoColor=FFFFFF&label=)
+
+## Installation:
+
+```bash
+npm install -D openai-debugger
+```
 
 ## Methods
 
@@ -14,20 +22,18 @@ Debug your client and server errors with OpenAI's API. Written in typescript
 
 ### Options Configuration
 
-Options object is required, though most parameters are optional.
+Options object is required, though most parameters are optional. See the official [openAI API docs](https://platform.openai.com/docs/api-reference/chat) for more info
 
-```typescript
-interface Options {
-  apiKey: string; // your openAI API key
-  model: string; // model name
-  temperature?: number; // model temperature ranging from 0 to 2, defaults to 0.2
-  top_p?: number; // controls sampling, defaults to 1
-  n?: number; // number of replies, defaults to 1
-  max_tokens?: number; // maximum reply length, default Infinity
-  presence_penalty?: number; // penalize repetition. defaults 0, range 0-2
-  frequency_penalty?: number; // penalize repetition. defaults 0, range 0-2
-}
-```
+| Option            | Type              | Description                           | Default  |
+| ----------------- | ----------------- | ------------------------------------- | -------- |
+| apiKey            | string            | Your OpenAI API key                   | -        |
+| model             | string            | Model name                            | -        |
+| temperature       | number (optional) | Model temperature ranging from 0 to 2 | 0.2      |
+| top_p             | number (optional) | Controls sampling                     | 1        |
+| n                 | number (optional) | Number of replies                     | 1        |
+| max_tokens        | number (optional) | Maximum reply length                  | Infinity |
+| presence_penalty  | number (optional) | Penalize repetition. Range 0-2        | 0        |
+| frequency_penalty | number (optional) | Penalize repetition. Range 0-2        | 0        |
 
 ### Example Usage (Node)
 
