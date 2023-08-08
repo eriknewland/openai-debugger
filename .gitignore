@@ -11,3 +11,6 @@ index2.js
 index3.js
 index4.mjs
 instructions.md
+
+# Ignore .vscode config
+.vscode

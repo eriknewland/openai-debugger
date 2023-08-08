@@ -11,3 +11,6 @@ instructions.md
 
 # Ignore TypeScript config
 tsconfig.json
+
+# Ignore .vscode config
+.vscode
