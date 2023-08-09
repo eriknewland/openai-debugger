@@ -1,6 +1,6 @@
 {
   "name": "openai-debugger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Use OpenAI's API to help solve error messages",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
