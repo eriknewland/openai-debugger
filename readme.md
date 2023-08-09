@@ -4,6 +4,9 @@ Debug your client and server errors with OpenAI's API. Written in typescript, de
 
 ![TypeScript](https://img.shields.io/static/v1?style=for-the-badge&message=TypeScript&color=3178C6&logo=TypeScript&logoColor=FFFFFF&label=)
 
+![openai-debugger-browser](https://github.com/eriknewland/openai-debugger/assets/114263701/ec5f3d50-c3fd-4efd-9a25-224a048d1d30)
+![openai-debugger-node](https://github.com/eriknewland/openai-debugger/assets/114263701/fa2de870-aed1-4545-9308-2efe62f1b7f4)
+
 ## Installation:
 
 ```bash
