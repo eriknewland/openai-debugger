@@ -1,6 +1,6 @@
 {
   "name": "openai-debugger",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Use OpenAI's API to help solve error messages",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/username/repository.git"
+    "url": "https://github.com/eriknewland/openai-debugger.git"
   },
   "dependencies": {
     "axios": "^1.4.0"
