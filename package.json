@@ -1,6 +1,6 @@
 {
   "name": "openai-debugger",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Use OpenAI's API to help solve error messages",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -12,7 +12,19 @@
     "chatgpt",
     "llm",
     "debugger",
-    "devtool"
+    "devtool",
+    "console",
+    "log",
+    "debugging",
+    "ai",
+    "artificial intelligence",
+    "logger",
+    "error",
+    "error logger",
+    "natural language processing",
+    "chat-gpt-4",
+    "chat-gpt-3",
+    "machine learning"
   ],
   "author": "Erik Newland",
   "license": "MIT",
